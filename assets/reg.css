@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+body,
+html{
+    scroll-behavior: smooth;
+}
+button,
+input{
+    outline: none;
+    border: none;
+    background: none;
+}
+button{
+    cursor: pointer;
+}
+.container{
+    max-width: 1024px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.form-header{
+    color: #fff;
+    font-weight: 500;
+}
+.nav__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+}
+.nav_logo{
+    color: #000;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.wrapper{
+    height: 5rem;
+    width: 100%;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.1);
+}
+main{
+    height: 100vh;
+    background-image: url(./images/fashion.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+button i{
+    color: #000;
+    font-size: 1.4rem;
+}
+.sign__btn{
+    font-size: 1rem;
+    background-color: #0936c9;
+    padding: .4rem 1rem;
+    border-radius: .6rem;
+    font-weight: 600;
+    color: #fff;
+}
+.one label{
+    margin-right: 1rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px);
+}
+
+.form-header{
+    font-size: 2rem;
+}
+form .one{
+    width: 100%;
+    margin-bottom: 0.9rem;
+    padding: .6rem 1rem;
+    border: 1px solid #fff;
+    border-radius: .5rem 0 0 .5rem;
+}
+form .one input::placeholder{
+    color: #fff;
+}
+form .one label{
+    color: #fff;
+}
+.form__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.sub-btn{
+    background: blue;
+    color: #fff;
+    padding: .5rem 1.4rem;
+    border-radius: .4rem;
+}
+form input[ type=text]{
+    color: #fff;
+}
+form input[ type=email]{
+    color: #fff;
+}
+form input[ type=password]{
+    color: #fff;
+}
+form .check_box{
+    display: flex;
+    align-items: flex-start;
+    column-gap: .6rem;
+    color: #fff;
+}
+.form .check_box input{
+    margin-top: 0.4rem;
+}
+@media screen and (max-width: 360px){
+    .form__container{
+        width: 100%;
+    }
+    form{
+        width: 90%;
+        margin: 0 auto;
+    }
+    form .one{
+        width: 100%;
+    }
+    .form__container{
+        width: 80%;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 768px){
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .form__container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+}
+@media only screen and (min-width: 1040px) {
+    .container{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    form{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+}

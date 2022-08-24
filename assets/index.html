@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<body lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./swiper-bundle.min.css">
+    <title>Shopify - New Collections</title>
+</head>
+</body>
+
+
+<div class="popup-screen" id="popup-screen">
+    <div class="popup-container">
+        <div class="popup-wrapper">
+            <div class="pop-close" id="pop-close">
+                <i class="ri-close-line"></i>
+            </div>
+            <div class="popup-left">
+                <p>Subscribe to our email newsletter today to receive update on the latest news</p>
+                <h2>Subscribe To Our Newsletter</h2>
+                <input type="text" placeholder="Enter Your Mail">
+                <button class="pop-btn">
+                    <div>Start Here</div>
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+            <div class="popup-right">
+                <img src="./images/popup.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
+    <div class="header-top">
+        <div class="top-header">
+            <div class="nav__container container">
+                <div>Free delivery on first order</div>
+                <div class="nav__right">
+                    <div class="en">ENG</div>
+                    <div class="en">USD</div>
+                </div>
+            </div>
+        </div>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <div class="nav_accounts">
+                    <button>
+                        <i class="ri-user-3-line" onclick="window.location.href='./Registration/registration.html'"></i> 
+                    </button>
+                </div>
+                <div class="nav__logo">Shopify</div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li><a href="#home" class="nav__link">Home</a></li>
+                        <li><a href="#fashion" class="nav__link">Fashion</a></li>
+                        <li><a href="#trends" class="nav__link">Collections</a></li>
+                        <li><a href="#category" class="nav__link">Category</a></li>
+                        <li><a href="#blog" class="nav__link">Blog</a></li>
+                        <li><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                    
+                    
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+                
+    
+                <div class="nav_right">
+
+                    <div class="nav__search" id="nav-search">
+                        <i class="ri-search-line"></i>
+                    </div>
+                    <div class="nav_cart" id="cart-shop">
+                        <i class="ri-shopping-cart-line"></i>
+                    </div>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+               
+            </nav>
+        </header>
+
+    </div>
+
+
+
+    <main class="main p5">
+        <section class="home__banner" id="home">
+            <div class="banner__container">
+                <img src="./images/banner1.jpg" alt="" class="banner-img">
+            </div>
+        </section>
+        
+        <section class="additional section" id="fashion">
+            <div class="additional__container container">
+                <div class="additional__row">
+                    <div class="additional__col">
+                        <img src="./images/handbag.webp" alt="">
+                        <div class="additional__content">
+                            <h2 class="additional__title">Designer Bags</h2>
+                            <button class="btn-secondary ad-btn">Shop now</button>
+                        </div>
+                    </div>
+                    <div class="additional__col">
+                        <img src="./images/watch.png" alt="">
+                        <div class="additional__content">
+                            <h2 class="additional__title">Brand Watches</h2>
+                            <button class="btn-secondary ad-btn">Shop now</button>
+                        </div>
+                    </div>
+                    <div class="additional__col">
+                        <img src="./images/shoes.png" alt="">
+                        <div class="additional__content">
+                            <h2 class="additional__title">Brand Shoes</h2>
+                            <button class="btn-secondary ad-btn">Shop now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="trends section" id="trends">
+            <div class="trend__container container">
+                <div class="trend__title t-center">We Love Trends</div>
+                <div class="trend__data">
+                    <button class="product__btn pro-black">
+                        Feature products
+                    </button>
+                    <button class="product__btn">
+                        Browse products
+                    </button>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide pro-slide">
+                            <img src="./images/d-bag.jpg" alt="">
+                            <div class="pro-content">
+                                <h3>Doctor's Bag</h3>
+                                <div class="pro-rating mx-1">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-line"></i>
+                                </div>
+                                <div class="pro-rate">
+                                    <h3>AED 20.00</h3>
+                                </div>
+                                <div class="pro-cart mx-1">
+                                    <button>ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide pro-slide">
+                            <img src="./images/d-belt.jpg" alt="">
+                            <div class="pro-content">
+                                <h3>Doctor's Bag</h3>
+                                <div class="pro-rating mx-1">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-line"></i>
+                                </div>
+                                <div class="pro-rate">
+                                    <h3>AED 20.00</h3>
+                                </div>
+                                <div class="pro-cart mx-1">
+                                    <button>ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide pro-slide">
+                            <img src="./images/d-cap.jpg" alt="">
+                            <div class="pro-content">
+                                <h3>Doctor's Bag</h3>
+                                <div class="pro-rating mx-1">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-line"></i>
+                                </div>
+                                <div class="pro-rate">
+                                    <h3>AED 20.00</h3>
+                                </div>
+                                <div class="pro-cart mx-1">
+                                    <button>ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide pro-slide">
+                            <img src="./images/d-glass.jpg" alt="">
+                            <div class="pro-content">
+                                <h3>Doctor's Bag</h3>
+                                <div class="pro-rating mx-1">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-line"></i>
+                                </div>
+                                <div class="pro-rate">
+                                    <h3>AED 20.00</h3>
+                                </div>
+                                <div class="pro-cart mx-1">
+                                    <button>ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide pro-slide">
+                            <img src="./images/d-nighty.jpg" alt="">
+                            <div class="pro-content">
+                                <h3>Doctor's Bag</h3>
+                                <div class="pro-rating mx-1">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-line"></i>
+                                </div>
+                                <div class="pro-rate">
+                                    <h3>AED 20.00</h3>
+                                </div>
+                                <div class="pro-cart mx-1">
+                                    <button>ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide pro-slide">
+                            <img src="./images/d-shoes.jpg" alt="">
+                            <div class="pro-content">
+                                <h3>Doctor's Bag</h3>
+                                <div class="pro-rating mx-1">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-line"></i>
+                                </div>
+                                <div class="pro-rate">
+                                    <h3>AED 20.00</h3>
+                                </div>
+                                <div class="pro-cart mx-1">
+                                    <button>ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide pro-slide">
+                            <img src="./images/d-top.jpg" alt="">
+                            <div class="pro-content">
+                                <h3>Doctor's Bag</h3>
+                                <div class="pro-rating mx-1">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-line"></i>
+                                </div>
+                                <div class="pro-rate">
+                                    <h3>AED 20.00</h3>
+                                </div>
+                                <div class="pro-cart mx-1">
+                                    <button>ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide pro-slide">
+                            <img src="./images/d-watch.jpg" alt="">
+                            <div class="pro-content">
+                                <h3>Doctor's Bag</h3>
+                                <div class="pro-rating mx-1">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-line"></i>
+                                </div>
+                                <div class="pro-rate">
+                                    <h3>AED 20.00</h3>
+                                </div>
+                                <div class="pro-cart mx-1">
+                                    <button>ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide pro-slide">
+                            <img src="./images/d-glass.jpg" alt="">
+                            <div class="pro-content">
+                                <h3>Doctor's Bag</h3>
+                                <div class="pro-rating mx-1">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-line"></i>
+                                </div>
+                                <div class="pro-rate">
+                                    <h3>AED 20.00</h3>
+                                </div>
+                                <div class="pro-cart mx-1">
+                                    <button>ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div> -->
+                </div>
+            </div>
+        </section>
+
+        <section class="men-section section" id="category">
+            <div class="men-container container">
+                <div class="men-data">
+                    <img src="./images/men-t.jpg" alt="">
+                    <img src="./images/men-t1.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="testimonial section">
+            <div class="testimonial-container container">
+                <div class="testimonial-data swiper">
+                    <div class="testimonial-wrapper swiper-wrapper">
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="./images/test.png" alt="">
+                            <div class="testimonial-content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quos quasi iusto expedita at laborum?</p>
+                                <h3>Jhone Deo</h3>
+                                <p>Founder</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="./images/test1.png" alt="">
+                            <div class="testimonial-content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quos quasi iusto expedita at laborum?</p>
+                                <h3>Jhone Deo</h3>
+                                <p>Founder</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="./images/test2.png" alt="">
+                            <div class="testimonial-content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quos quasi iusto expedita at laborum?</p>
+                                <h3>Jhone Deo</h3>
+                                <p>Founder</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+        </section>
+        <div class="services-container section">
+            <div class="service-container container">
+                <div class="service__data">
+                    <div class="service-one">
+                        <i class="ri-rocket-line"></i>
+                        <div class="service-content">
+                            <h3>Free Shipping Worldwide</h3>
+                            <span>Free shipping to everywhere in world</span>
+                        </div>
+                    </div>
+                    <div class="service-one">
+                        <i class="ri-customer-service-2-line"></i>
+                        <div class="service-content">
+                            <h3>24/7 Help Line Support</h3>
+                            <span>Free shipping to everywhere in world</span>
+                        </div>
+                    </div>
+                    <div class="service-one">
+                        <i class="ri-award-fill"></i>
+                        <div class="service-content">
+                            <h3>Best Quality Product</h3>
+                            <span>Free shipping to everywhere in world</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <section class="ournews section" id="blog">
+            <div class="ournews-container container">
+                <h2 class="mb-1 f-bold t-center">OUR LATEST NEWS</h2>
+                <div class="news-data mb-2">
+                    <div class="news-one">
+                        <div class="new-container">
+                            <img src="./images/news.jpg" alt="" class="image">
+                            <!-- <div class="new-overlay">
+                                <i class="ri-search-line"></i>
+                            </div> -->
+                        </div>
+                        <div class="new-content">
+                            <h2 class="f-bold">this is second post</h2>
+                            <p>this is new shopping website. visit our website to buy everything here.</p>
+                            <button>Read more</button>
+                        </div>
+                        
+                    </div>
+                    <div class="news-one">
+                        <div class="new-container">
+                            <img src="./images/news1.jpg" alt="" class="image">
+                            <!-- <div class="new-overlay">
+                                <i class="ri-search-line"></i>
+                            </div> -->
+                        </div>
+                        <div class="new-content">
+                            <h2 class="f-bold">this is second post</h2>
+                            <p>this is new shopping website. visit our website to buy everything here.</p>
+                            <button>Read more</button>
+                        </div>
+                       
+                    </div>
+                    <div class="news-one">
+                        <div class="new-container">
+                            <img src="./images/news2.jpg" alt="" class="image">
+                            <!-- <div class="new-overlay">
+                                <i class="ri-search-line"></i>
+                            </div> -->
+                        </div>
+                        <div class="new-content">
+                            <h2 class="f-bold">this is second post</h2>
+                            <p>this is new shopping website. visit our website to buy everything here.</p>
+                            <button>Read more</button>
+                        </div>
+                    
+                    </div>
+                </div>
+                <button class="mt-2 t-right news-btn">
+                    <div>All Blogs</div>
+                    <i class="ri-arrow-right-s-line"></i>
+                </button>
+            </div>
+        </section>
+
+        <section class="test section">
+            <div class="test-container container swiper">
+                <div class="test__data swiper-wrapper">
+                    <div class="test-slide swiper-slide">
+                        <img src="./images/demo_img_1.png" alt="">
+                    </div>
+                    <div class="test-slide swiper-slide">
+                        <img src="./images/demo_img_2.png" alt="">
+                    </div>
+                    <div class="test-slide swiper-slide">
+                        <img src="./images/demo_img_3.png" alt="">
+                    </div>
+                    <div class="test-slide swiper-slide">
+                        <img src="./images/demo_img_4.png" alt="">
+                    </div>
+                    <div class="test-slide swiper-slide">
+                        <img src="./images/demo_img_5.png" alt="">
+                    </div>
+                    <div class="test-slide swiper-slide">
+                        <img src="./images/demo_img_6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="newsletter section" id="contact">
+            <div class="newsletter-container container">
+                <div class="newsletter-data">
+                    <div class="newsletter-left">
+                        <h2>Newsletter:</h2>
+                        <div class="newsletter-btn">
+                            <input type="text" name="" id="" placeholder="Your Email address">
+                            <button>Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="newsletter-right">
+                        <i class="ri-facebook-line"></i>
+                        <i class="ri-instagram-line"></i>
+                        <i class="ri-linkedin-box-fill"></i>
+                        <i class="ri-facebook-line"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer-container">
+            
+            <div class="footer__data container">
+                <div class="footer-logo">
+                    Shopify.
+                </div>
+                <div class="footer-one">
+                    <h2>Get to Know Us</h2>
+                    <ul>
+                        <li>About us</li>
+                        <li>About us</li>
+                        <li>About us</li>
+                        <li>About us</li>
+                    </ul>
+                </div>
+                <div class="footer-one">
+                    <h2>Information</h2>
+                    <ul>
+                        <li>About us</li>
+                        <li>About us</li>
+                        <li>About us</li>
+                        <li>About us</li>
+                    </ul>
+                </div>
+                <div class="footer-one">
+                    <h2>Useful Links</h2>
+                    <ul>
+                        <li>About us</li>
+                        <li>About us</li>
+                        <div class="footer-cards">
+                            <img src="./images/card.svg" alt="">
+                            <img src="./images/card1.svg" alt="">
+                            <img src="./images/card2.svg" alt="">
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>&#169; All Rights are reserved Terms of Use and Privacy Policy by shopify.com</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="./swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+     <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+          slidesPerView: 1,
+        //   grid: {
+        //     rows: 3,
+        //   },
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            640: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 5,
+                spaceBetween: 50,
+            },
+            },
+        });
+      </script>
+     <script>
+        var swiper = new Swiper(".test-container", {
+            loop: true,
+          slidesPerView: 3,
+        //   grid: {
+        //     rows: 3,
+        //   },
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            640: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 5,
+                spaceBetween: 50,
+            },
+            },
+        });
+      </script>
+     <!-- Initialize Swiper -->
+     <script>
+        var swiper = new Swiper(".testimonial-data", {
+            loop: true,
+          slidesPerView: 1,
+        //   grid: {
+        //     rows: 3,
+        //   },
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+           
+        });
+      </script>
+</body>
+</html>
